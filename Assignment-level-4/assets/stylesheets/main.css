@@ -1,0 +1,312 @@
+           /* Eric Mayers Reset  */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+                 /* My Reset */
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+				  /* Global Typography */
+ 
+
+a {
+   text-decoration: none;
+
+}
+
+h1 {
+	font-size:2em;
+}
+
+h2 {
+	font-size:1.5em;
+}
+
+h3{
+	font-size:1.2em;
+	font-weight: 530;
+}
+
+p {
+	font-size:1em;
+}
+
+li{
+	list-style-type:none;
+}
+
+small{
+	font-size: .8em;
+} 
+
+strong {
+	font-weight: 500;
+}
+
+
+				   /* Modular Class */
+				   
+.container{
+	margin: 0 auto;
+	max-width: 60rem;
+	padding: 3rem 2rem;
+}
+
+.img-div {
+	font-size: 0;
+	width: 12rem;
+
+}
+.img-div1 {
+	font-size: 0;
+	
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: "";
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+li {
+	display: inline-block;
+}
+
+
+				 /* Header */
+
+				 
+.header {
+	background:url(../images/thomas-somme-16nModGZeOA-unsplash.jpg);
+	color: white;
+	height:100vh;
+    background-size: cover;
+}
+
+.nav-bar a {
+	color: white;
+	font-size: .7em;
+}
+
+.logo a {
+	color: white;
+}
+
+
+.logo {
+	float: left;
+}
+
+.nav-bar {
+	float: right;
+}
+
+h1 {
+	padding:1rem 0;
+}
+
+.welcome{
+	text-align: center;
+	padding-top: 13rem;
+}
+
+
+				  /* Article Section */
+ 				  
+.art-sec {
+	height: 80vh;
+	background-color:  rgb(93, 185, 247);
+}
+
+.art {
+	width: 30%;
+	height:13rem;
+	display: inline-block;
+	margin: 5rem 10px;
+	vertical-align: top;
+	text-align:center;
+	background-color: yellowgreen;
+	padding: 12px;
+	border-radius: 7px;
+	box-shadow: 10px 10px 10px 0 rgba(0,0,0,.5);
+}
+
+.art p {
+	padding: 1.5rem 0;
+	color:rgb(19, 3, 3);
+	text-align: justify;
+}
+
+.art h3 {
+	color: rgb(227, 235, 241);
+}
+
+.art a {
+	background-color:rgb(55, 167, 241);
+	padding: 10px 15px;
+	color: white;
+	font-size: .6em;
+}
+ 
+
+                /* Profile-Section */
+  
+.pro-sec h2 {
+	padding: 1rem 0;
+}
+
+.pro-sec {
+	text-align: center;
+}
+
+.ipsum {
+	padding: 1rem 0;
+}
+.pro-pic{
+	border: 2px solid white;
+	width:13rem;
+	text-align: center;
+	display: inline-block;
+	margin:5rem .4rem;
+	padding: 10px;
+}
+
+.img-div img {
+	border-radius: 50%;
+}
+
+.img-div {
+	padding: 7px;
+	margin: 0 auto;
+}
+
+.pro-sec {
+	background:url(../images/keith-misner-h0Vxgz5tyXA-unsplash.jpg);
+	color: white;
+	background-size: cover;
+} 
+
+
+               /* Nunc-Section */
+
+
+.nunc-sec {
+	background: url(../images/lucas-benjamin-MyU3s1VasA4-unsplash.jpg);
+	background-size: cover;
+	text-align: center;
+}
+.nunc-sec h2 {
+	padding: 10px;
+	color: rgb(56, 123, 248);
+}
+.box h3 {
+	color: rgb(35, 110, 248);
+}
+
+.box1,
+.box2 {
+	display: inline-block;
+	margin:3rem 1.4rem;
+	width: 25rem;
+	background-color: rgb(198, 255, 92);
+	padding-bottom: 2rem;
+	border-radius: 8px;
+	box-shadow:0 0 9px 9px rgba(0,0,0,.3);
+}
+
+.img-div1 {
+	margin-bottom: 1rem;
+	
+}
+
+.img-div1 img {
+	border-radius: 8px;
+}
+
+.box a {
+	background-color: rgb(80, 139, 247);
+	padding: 5px 10px;
+	color: white;
+}
+
+.box p {
+	padding: 17px;
+}
+ 
+
+                 /* Footer */
+
+
+small{
+	float:left;
+	color:gray;
+	line-height: 3;
+}
+
+.nav-bar1 {
+	float: right;
+}
+
+.nav-bar1 a {
+	padding: 10px;
+	font-size: 1.5em;
+	color: rgb(35, 127, 248);
+	vertical-align:middle;
+}
